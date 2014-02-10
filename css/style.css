@@ -298,3 +298,49 @@ header[role="banner"] .nav {
   border-left: 0;
 }
 
+
+/*Hide Search and Nav only if Advanced JS is present*/
+.queryselectorall .search, .queryselectorall [role="banner"] .nav {
+  display: none;
+}
+.content {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  text-shadow: 0 1px 0 #fff;
+  -webkit-animation: fadein 0.4s ease-out 1;
+  -moz-animation: fadein 0.4s ease-out 1;
+  -ms-animation: fadein 0.4s ease-out 1;
+  animation: fadein 0.4s ease-out 1;
+}
+.content img {
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+.product-main {
+  overflow: hidden;
+  max-width: 63em;
+  margin: 0 auto;
+  padding: 1em;
+}
+.product-overview {
+  margin-bottom: 1em;	
+}
+.price {
+  font-weight: bold;
+  display: inline-block;
+}
+.star {
+  display: inline-block;
+  margin: 0 0.5em;
+  font-size: 0.9em;
+}
+.star li {
+  display: inline-block;
+  color: #9d0000;
+}
+
+
